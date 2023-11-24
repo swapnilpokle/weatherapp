@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>swapnils_weather_app</title>
+
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+  <h1 style="margin-bottom: 1rem;">lets see today`s weather!!!</h1>
+  <div class="serach">
+    <input id="s-value" type="text" value="pune" placeholder="enter the city ">
+    <button id="btn" onclick="fetchData(this)">serach</button>
+  </div>
+<div class="card">
+  <img src="https://via.placeholder.com/300" id="weatherImage" alt="Placeholder Image">
+  <div class="card-content">
+    <div class="card-heading" id="name">Card Heading</div>
+    <div class="card-parameters">
+     
+      <div class="parameter" >
+        <h2>temp</h2>
+        <span  id="p1"></span></div>
+      
+
+      <div class="parameter"  ><h2>humidity</h2><span id="p2"></span></div>
+
+      <div class="parameter">
+      <h2>cloud pct</h2>
+      <span id="p3"></span></div>
+    </div>
+  </div>
+</div>
+</body>
+<script src="index.js"></script>
+
+</html>
